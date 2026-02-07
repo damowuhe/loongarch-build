@@ -2,8 +2,8 @@
 
 
 #请将kernel文件夹改名为kernel4.19-202506
-#请将kernel下面的文件夹变为build_kernel.sh
-#请将buildroot下面的文件夹变为build_rootfs.sh
+#请将kernel下面的脚本文件变为build_kernel.sh
+#请将buildroot下面的脚本文件变为build_rootfs.sh
 
 
 SDK_PATH=$(pwd)
@@ -145,7 +145,7 @@ build_function()
             ;;
         all)
             echo -e "\n${YELLOW}===== 开始全量编译（uboot + kernel + rootfs）=====${NC}"
-            for component in uboot kernel rootfs; do
+            for component in kernel rootfs; do
                 local component_dir=${COMPONENT_DIRS[$component]}
                 local action="build_$component.sh"
                 
@@ -157,7 +157,7 @@ build_function()
             ;;
         all_clean)
             echo -e "\n${YELLOW}===== 开始全量清理（uboot + kernel + rootfs）=====${NC}"
-            for component in uboot kernel rootfs; do
+            for component in kernel rootfs; do
                 local component_dir=${COMPONENT_DIRS[$component]}
                 local action="build_${component}.sh clean"
                 
