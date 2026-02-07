@@ -1,0 +1,2 @@
+# loongarch-build
+build.sh
