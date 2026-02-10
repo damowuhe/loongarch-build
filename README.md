@@ -17,8 +17,11 @@ git clone https://github.com/damowuhe/loongarch-build.git  即可
 <img width="385" height="326" alt="dcc7df0cfdae62f74258d511378a8947" src="https://github.com/user-attachments/assets/3a9abc8f-0055-4c38-8724-53c848b6ec97" />
 
 3.可同时清理kernel和rootfs
+
 ./build.sh clean
+
 ./build.sh kernel clean
+
 ./build.sh buildroot clean
 <img width="811" height="318" alt="193a8bcf51b304737f30efd76b5e8808" src="https://github.com/user-attachments/assets/5c4e539f-91c9-4742-a2fb-4414cc3694ff" />
 <img width="1180" height="321" alt="7c2d429f1f9a7d0b62bbdca49cc0425d" src="https://github.com/user-attachments/assets/31b92fd5-562c-4655-9764-e6fd37261bf5" />
