@@ -3,10 +3,13 @@ build.sh
 这是一个智能车龙芯逐飞派的内核kernel和根文件系统rootfs的脚本文件
 为了更方便大家使用进行以下变化
 注意：可以只用下载build.sh即可，在ubuntu下面和linux-4.19并行目录下面，git clone 即可
+
 1.bulid.sh脚本包含了构建kernel和rootfs两大功能，写到一个build.sh里面生成kernel和rootfs
+./build.sh kernel
 <img width="884" height="329" alt="0fb674c59e9235197291dcf94fbc8d82" src="https://github.com/user-attachments/assets/3e8452c7-d20e-45c9-8a95-80e015d6abfb" />
-<img width="1179" height="301" alt="ef5034df06f06746b1b900339131feb7" src="https://github.com/user-attachments/assets/e84efed0-5e1d-4fdd-bb35-405650c54e02" />
-<img width="378" height="369" alt="image" src="https://github.com/user-attachments/assets/111402ea-4056-4a5b-8961-3baf50f68ecf" />
+./build.sh buildroot
+<img width="1339" height="349" alt="image" src="https://github.com/user-attachments/assets/7b469799-4d87-46a6-8b11-16ee6540885a" />
+
 
 2.直接使用./build.sh走完所有流程（编译kernel和rootfs并打包镜像文件到表层output目录下）
 <img width="385" height="326" alt="dcc7df0cfdae62f74258d511378a8947" src="https://github.com/user-attachments/assets/3a9abc8f-0055-4c38-8724-53c848b6ec97" />
