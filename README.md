@@ -35,7 +35,8 @@ git clone https://github.com/damowuhe/loongarch-build.git  即可
 <img width="1165" height="362" alt="51d0b9fb78ddcf1f50aec9c336e3ecd1" src="https://github.com/user-attachments/assets/afcac7a3-8fea-48a4-97bb-7b515d9e6152" />
 <img width="1165" height="443" alt="d9f6e4babd8bce2fc2eb2ec4da23573d" src="https://github.com/user-attachments/assets/402d002e-dd24-4f38-9965-8a928ac112c4" />
 
-5.通过build.sh可以知道哪些命令可以使用
+5.通过build.sh help可以知道哪些命令可以使用
+
 ./build.sh help
 <img width="621" height="184" alt="image" src="https://github.com/user-attachments/assets/ebb807b4-ccee-493e-83d3-6e09fca0e055" />
 
