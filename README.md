@@ -3,6 +3,7 @@ build.sh
 这是一个智能车龙芯逐飞派的内核kernel和根文件系统rootfs的脚本文件
 为了更方便大家使用进行以下变化
 注意：可以只用下载build.sh即可，在ubuntu下面和linux-4.19并行目录下面，
+
 git clone https://github.com/damowuhe/loongarch-build.git  即可
 
 1.bulid.sh脚本包含了构建kernel和rootfs两大功能，写到一个build.sh里面生成kernel和rootfs
