@@ -7,6 +7,7 @@ build.sh
 git clone https://github.com/damowuhe/loongarch-build.git  即可
 
 1.bulid.sh脚本包含了构建kernel和rootfs两大功能，写到一个build.sh里面生成kernel和rootfs
+
 ./build.sh kernel
 <img width="884" height="329" alt="0fb674c59e9235197291dcf94fbc8d82" src="https://github.com/user-attachments/assets/3e8452c7-d20e-45c9-8a95-80e015d6abfb" />
 ./build.sh buildroot
